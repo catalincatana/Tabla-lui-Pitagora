@@ -1,9 +1,17 @@
+function colorLine2() {
+	$("#linia3").css("background-color", "red");
+}
+
+function colorColumn2() {
+	$("#coloana3").css("background-color", "orange");
+} 
+
 function createTable()
 {
-		var tbody = '';
+	var tbody = '';
         var theader = '<div style="position:relative; left:50%; top:30%" id="tabelanimatie" ><table border="1" id="table" >\n';
           //  for($u=1; $u<=2; $u++){
-              tbody += '<tr id="linia1">';
+              		tbody += '<tr id="linia1">';
 					tbody += '<td id="coloana1">';
 					tbody += 'x';
 					tbody += '</td >'
