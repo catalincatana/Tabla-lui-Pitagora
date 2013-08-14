@@ -5,7 +5,9 @@ function colorLine2() {
 function colorColumn2() {
 	$(".coloana3").css("background-color", "orange");
 } 
-
+function aparPrime(){
+	document.getElementById('NrPrime').innerHTML = '11-13-17';
+}
 function createTable()
 {
 	var tbody = '';
