@@ -9,18 +9,18 @@
 
 	<body>
 		<form>
-			Intrebarea #1<input type="radio" name="Quest#1" value="#1" onclick="createTable(); colorLineColumn1();"></br>
-			Intrebarea #2<input type="radio" name="Quest#2" value="#2" onclick="colorLineColumn7();"></br>
-			Intrebarea #3<input type="radio" name="Quest#3" value="#3" onclick="colorLineColumn2();"></br>
+			Intrebarea #1<input type="radio" name="Quest#1" value="#1" onclick="createTable(); colorLineColumn1(); style='background:red'">->Apare tabel cu Prima Linie Resp Coloana colorate cu galben</br>
+			Intrebarea #2<input type="radio" name="Quest#2" value="#2" onclick="colorLineColumn7();">->Se coloreaza cu verde linia resp col lui 7</br>
+			Intrebarea #3<input type="radio" name="Quest#3" value="#3" onclick="colorLineColumn2();"> -> Se coloreaza cu rosu linia/coloana lui 2</br>
 
-			Intrebarea #4<input type="radio" name="Quest#4" value="#4" onclick="colorLineColumn5();"></br>
-			Intrebarea #5<input type="radio" name="Quest#5" value="#5" onclick="colorLineColumn3();"></br>
-			Intrebarea #6<input type="radio" name="Quest#6" value="#6" onclick='colorMainLineColumn();'></br>
+			Intrebarea #4<input type="radio" name="Quest#4" value="#4" onclick="colorLineColumn5();"> -> Se coloreaza cu albastru linia/coloana lui 5</br>
+			Intrebarea #5<input type="radio" name="Quest#5" value="#5" onclick="colorLineColumn3();"> -> Se coloreaza cu portocaliu linia/coloana lui 3</br>
+			Intrebarea #6<input type="radio" name="Quest#6" value="#6" onclick="colorMainLineColumn();"> -> Se coloreaza diagonala cu violet</br>
 
-			Intrebarea #7(Numerele prime)<input type="radio" name="Quest#7" value="#7" onclick='aparPrime();'></br>
+			Intrebarea #7(Numerele prime)<input type="radio" name="Quest#7" value="#7" onclick='aparPrime();'> -> Apar sub tabel numerele prime</br>
 
 		</form>
 		<div id="tabelpitagora"></div>
-		<div id="NrPrime" style="position:relative; left:50%; top:30%"></div>
+		<div id="NrPrime" style="position:relative; left:50%; top:30%; color:#9933CC"></div>
 	</body>
 </html>
